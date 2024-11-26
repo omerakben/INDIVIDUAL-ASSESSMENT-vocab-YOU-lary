@@ -1,0 +1,29 @@
+{
+    "Vocabulary_Entries": {
+      "entry1": {
+        "id": "1",
+        "title": "JavaScript",
+        "definition": "A multi-paradigm programming language.",
+        "tech_category": "Programming Language",
+        "timestamp": "2024-11-25T10:00:00Z",
+        "uid": ""
+      },
+      "entry2": {
+        "id": "2",
+        "title": "React",
+        "definition": "A JavaScript library for building user interfaces.",
+        "tech_category": "Library",
+        "timestamp": "2024-11-25T10:05:00Z",
+        "uid": ""
+      },
+      "entry3": {
+        "id": "3",
+        "title": "Firebase",
+        "definition": "A platform developed by Google for creating mobile and web applications.",
+        "tech_category": "Platform",
+        "timestamp": "2024-11-25T10:10:00Z",
+        "uid": ""
+      }
+    }
+  }
+  
