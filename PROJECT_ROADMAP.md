@@ -2,7 +2,7 @@
 
 ## Project Setup & Planning Phase
 - Setup Firebase project
-- Create ERD
+- Create ERD ( https://dbdiagram.io/d/67464969e9daa85acad02c77 )
 - Create technical flow chart
 - Setup development environment
 - Create GitHub project board

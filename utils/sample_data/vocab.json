@@ -1,0 +1,26 @@
+{
+    "-UniqueKey1": {
+      "title": "HTML Forms",
+      "definition": "HTML forms are used to collect user input on a web page.",
+      "language_id": "",
+      "timeSubmitted": "2024-11-26 00:00:00",
+      "uid": "",
+      "firebaseKey": ""
+    },
+    "-UniqueKey2": {
+      "title": "CSS Flex-box Layout",
+      "definition": "CSS Flex-box is a layout model that allows for the alignment and distribution of items within a container along a single axis.",
+      "language_id": "",
+      "timeSubmitted": "2024-11-26 00:00:00",
+      "uid": "",
+      "firebaseKey": ""
+    },
+    "-UniqueKey3": {
+      "title": "JavaScript Promises",
+      "definition": "Promises in JavaScript represent the eventual completion or failure of an asynchronous operation and its resulting value.",
+      "language_id": "",
+      "timeSubmitted": "2024-11-26 00:00:00",
+      "uid": "",
+      "firebaseKey": ""
+    }
+}
