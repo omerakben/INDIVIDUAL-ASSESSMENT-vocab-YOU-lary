@@ -1,10 +1,64 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import "~bootstrap/scss/bootstrap";
 
-
 body {
   background-color: #232323;
   color: #28A745;
   text-align: center;
-  margin-top: 100px;
+  padding-top: 100px;
+}
+
+#login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+
+  #google-auth {
+    width: 100px;
+    height: 100px;
+    font-size: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(2.5);
+    }
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.navbar {
+  border-bottom: 1px solid #28A745;
+  box-shadow: 0 2px 4px rgba(40, 167, 69, 0.1);
+  background: linear-gradient(-45deg, #232323, #0d6efd, #28A745, #232323);
+  background-size: 300% 300%;
+  animation: gradient 15s ease infinite;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+  font-weight: bold !important;
+  position: relative;
+  z-index: 1;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #000000 !important;
 }
